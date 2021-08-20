@@ -1,0 +1,9 @@
+export const SET_MESSAGE = "SET_MESSAGE";
+export const CLEAR_MESSAGE = "CLEAR_MESSAGE";
+
+export const GET_SLIDER = "GET_SLIDER";
+export const GET_DRAMA_MOVIES = "GET_DRAMA_MOVIES";
+export const GET_COMEDY_MOVIES = "GET_COMEDY_MOVIES";
+export const GET_ACTION_MOVIES = "GET_ACTION_MOVIES";
+
+export const GET_MOVIE_BY_ID = "GET_MOVIE_BY_ID";

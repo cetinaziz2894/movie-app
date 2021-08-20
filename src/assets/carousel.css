@@ -1,0 +1,44 @@
+.carousel-root{
+    max-height: 100% !important;
+    height: 100% !important;
+}
+.carousel-root .carousel{
+    max-height: 100% !important;
+    height: 100% !important;
+}
+.carousel-root .carousel .slider-wrapper{
+    max-height: 100% !important;
+    height: 100% !important;
+}
+.carousel-root .carousel .slider-wrapper .slider{
+    max-height: 100% !important;
+    height: 100% !important;
+    background-color: aliceblue !important;
+}
+.carousel-root .carousel .slider-wrapper .slider .slide {
+    max-height: 100% !important;
+    height: 100% !important;
+}
+
+.carousel-root .carousel .slider-wrapper .slider .slide > div{
+    max-height: 100% !important;
+    height: 100% !important;
+}
+
+.carousel-root .carousel .slider-wrapper .slider .slide > div > div{
+    max-height: 100% !important;
+    height: 100% !important;
+}
+.carousel-root .carousel .slider-wrapper .slider .slide > div > img{
+    max-height: 100% !important;
+    height: 100% !important;
+    width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    float: left;
+    z-index: 1;
+}
