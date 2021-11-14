@@ -1,7 +1,7 @@
 import {GET_ACTION_MOVIES, GET_COMEDY_MOVIES, GET_DRAMA_MOVIES, GET_MOVIE_BY_ID, SET_MESSAGE} from './types'
 
 export const getDramaMovies = () => (dispatch) => {
-    return fetch("http://localhost:3001/movies")
+    return fetch('https://mockdata-json-server.herokuapp.com/movies')
           .then(res => res.json())
           .then(
             (result) => {
@@ -28,7 +28,7 @@ export const getDramaMovies = () => (dispatch) => {
 }
 
 export const getComedyMovies = () => (dispatch) => {
-    return fetch("http://localhost:3001/movies")
+    return fetch('https://mockdata-json-server.herokuapp.com/movies')
           .then(res => res.json())
           .then(
             (result) => {
@@ -55,7 +55,7 @@ export const getComedyMovies = () => (dispatch) => {
 }
 
 export const getActionMovies = () => (dispatch) => {
-    return fetch("http://localhost:3001/movies")
+    return fetch('https://mockdata-json-server.herokuapp.com/movies')
           .then(res => res.json())
           .then(
             (result) => {
@@ -82,7 +82,7 @@ export const getActionMovies = () => (dispatch) => {
 }
 
 export const getMovieById = (id) => (dispatch) => {
-    return fetch("http://localhost:3001/movies/"+id)
+    return fetch('https://mockdata-json-server.herokuapp.com/movies/${id}')
           .then(res => res.json())
           .then(
             (result) => {

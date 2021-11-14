@@ -1,7 +1,7 @@
 import {GET_SLIDER, SET_MESSAGE} from './types'
 
 export const getSlider = () => (dispatch) => {
-    return fetch("http://localhost:3001/slider")
+    return fetch('https://mockdata-json-server.herokuapp.com/slider')
           .then(res => res.json())
           .then(
             (result) => {
