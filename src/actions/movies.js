@@ -82,7 +82,7 @@ export const getActionMovies = () => (dispatch) => {
 }
 
 export const getMovieById = (id) => (dispatch) => {
-    return fetch('https://mockdata-json-server.herokuapp.com/movies/${id}')
+    return fetch('https://mockdata-json-server.herokuapp.com/movies/'+id)
           .then(res => res.json())
           .then(
             (result) => {
